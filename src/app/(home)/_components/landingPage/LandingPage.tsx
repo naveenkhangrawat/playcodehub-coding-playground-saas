@@ -2,7 +2,7 @@ import React from 'react'
 import TitleSection from '../TitleSection';
 import { Button } from '../../../../components/ui/button';
 import Image from 'next/image';
-import Banner from '../../../../../public/playcodehub.png'
+import Banner from '@/../public/playcodehub.png'
 import InfiniteCardsScroll from '../InfiniteCardsScroll';
 import FeatureSection from '../FeatureSection';
 import Testimonials from '../Testimonials';
