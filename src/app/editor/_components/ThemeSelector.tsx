@@ -1,8 +1,8 @@
 "use client"
 
-import { RootState } from '@/reduxTk/store'
+
 import React, { useEffect, useRef, useState } from 'react'
-import {useAppDispatch, useAppSelector, useAppStore} from "@/lib/hooks";
+import {useAppDispatch, useAppSelector } from "@/lib/hooks";
 import {AnimatePresence, motion} from "framer-motion";
 import { CircleOff, Cloud, Github, Laptop, Moon, Palette, Sun } from 'lucide-react';
 import { setTheme } from '@/reduxTk/editorSlice';

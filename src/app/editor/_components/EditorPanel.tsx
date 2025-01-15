@@ -1,7 +1,7 @@
 "use client"
 
 import { useAppDispatch, useAppSelector, useMounted } from '@/lib/hooks'
-import { Editor, Monaco } from '@monaco-editor/react'
+import { Editor } from '@monaco-editor/react'
 import React, { ChangeEvent, useEffect, useState } from 'react'
 import { defineMonacoThemes, LANGUAGE_CONFIG } from '../_constants';
 import { editor } from 'monaco-editor';

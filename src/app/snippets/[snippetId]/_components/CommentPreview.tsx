@@ -5,13 +5,13 @@ function CommentPreview({content} : {content: string}) {
 
     const contentParts = content.split(/(```[\w-]*\n[\s\S]*?\n```)/g);
 
-    const result = contentParts.map((part) => {
+    const result = contentParts.map((part, index) => {
         if(part.startsWith("```")){
             const matchedParts = part.match(/```([\w-]*)\n([\s\S]*?)\n```/);
             if(matchedParts){
                 const [, language, code] = matchedParts;
                 return (
-                    <div className='mt-4 mb-4'>
+                    <div key={index} className='mt-4 mb-4'>
                         <CodeBlock language={language} code={code} filename={language}/>
                     </div>
                 )

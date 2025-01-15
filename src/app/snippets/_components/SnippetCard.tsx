@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import { Snippet } from '@/types'
 import { motion } from "framer-motion";
-import toast from "react-hot-toast";
 import Link from 'next/link';
 import Image from 'next/image';
 import { Clock, Trash2, User } from 'lucide-react';

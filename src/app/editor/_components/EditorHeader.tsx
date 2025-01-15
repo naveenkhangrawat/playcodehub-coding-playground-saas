@@ -5,7 +5,6 @@ import { api } from '../../../../convex/_generated/api';
 import Link from 'next/link';
 import { Blocks, Code2, Sparkles } from 'lucide-react';
 import RunButton from './RunButton';
-import { UserProfile } from '@clerk/nextjs';
 import ThemeSelector from './ThemeSelector';
 import UserProfileBtn from './UserProfileBtn';
 import LanguageSelector from './LanguageSelector';

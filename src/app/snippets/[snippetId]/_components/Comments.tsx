@@ -1,6 +1,6 @@
 import { useQuery } from 'convex/react'
 import { MessageSquare } from 'lucide-react'
-import React, { useState } from 'react'
+import React from 'react'
 import { api } from '../../../../../convex/_generated/api'
 import { Id } from '../../../../../convex/_generated/dataModel'
 import { useUser } from '@clerk/nextjs'

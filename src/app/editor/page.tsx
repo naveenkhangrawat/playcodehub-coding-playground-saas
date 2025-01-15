@@ -1,7 +1,7 @@
 import React from 'react'
 import EditorHeader from './_components/EditorHeader';
 import EditorPanel from './_components/EditorPanel';
-import FloatingMenu from './_components/FloatingMenu';
+// import FloatingMenu from './_components/FloatingMenu';
 import {
     ResizableHandle,
     ResizablePanel,

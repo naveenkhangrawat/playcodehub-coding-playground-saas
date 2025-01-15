@@ -1,7 +1,7 @@
 "use client";
 
-import React, { Suspense, useState } from 'react'
-import { ChevronRight, Code, ListVideo, Loader2, Star } from "lucide-react";
+import React, {  useState } from 'react'
+import {  ListVideo,  Star } from "lucide-react";
 import { AnimatePresence, motion } from 'framer-motion';
 import StarredTabSection from './StarredTabSection';
 import ExecutionsTabSection from './ExecutionsTabSection';

@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../(home)/_components/Header'
 import SnippetsLandingPage from './_components/SnippetsLandingPage'
 import SnippetsPageHeader from './_components/SnippetsPageHeader'
 import SnippetsPageSkeleton from './_components/SnippetsPageSkeleton'

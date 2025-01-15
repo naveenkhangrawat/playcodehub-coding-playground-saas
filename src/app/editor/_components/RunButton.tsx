@@ -9,7 +9,7 @@ import { LANGUAGE_CONFIG } from '../_constants';
 import { useUser } from '@clerk/nextjs';
 import { useMutation } from 'convex/react';
 import { api } from '../../../../convex/_generated/api';
-import { useStore } from 'react-redux';
+
 
 function RunButton() {
 
@@ -20,12 +20,11 @@ function RunButton() {
     const isRunning = useAppSelector((state) => state.codeEditor.isRunning);
     const language = useAppSelector((state) => state.codeEditor.language);
     const editor = useAppSelector((state) => state.codeEditor.editor);
-    const executionResult = useAppSelector((state) => state.codeEditor.executionResult);
+    
 
     const dispatch = useAppDispatch();
     const store = useAppStore();
 
-    console.log('component rerendering');
 
     async function executeCode(){
         const currentCode = editor?.getValue() || "";

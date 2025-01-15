@@ -1,8 +1,6 @@
 
-import { BackgroundBeams } from "@/components/aceternityUI/background-beams";
-import { SignedIn, SignOutButton } from "@clerk/nextjs";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+// import { BackgroundBeams } from "@/components/aceternityUI/background-beams";
+
 import LandingPage from "@/app/(home)/_components/landingPage/LandingPage";
 import Header from "./_components/Header";
 import Footer from "@/components/Footer";

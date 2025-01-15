@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import ConvexClientProvider from "@/components/providers/ConvexClientProvider";
-import Footer from "@/components/Footer";
 import StoreProvider from "@/components/providers/StoreProvider";
 import { Toaster } from "react-hot-toast";
 import { dark } from '@clerk/themes'

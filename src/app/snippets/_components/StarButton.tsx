@@ -2,7 +2,7 @@
 
 import { useMutation, useQuery } from 'convex/react';
 import { Star } from 'lucide-react';
-import React, { useState } from 'react'
+import React from 'react'
 import { api } from '../../../../convex/_generated/api';
 import { Id } from '../../../../convex/_generated/dataModel';
 import { useAuth } from '@clerk/nextjs';

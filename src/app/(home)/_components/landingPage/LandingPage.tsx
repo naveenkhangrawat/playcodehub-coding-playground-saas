@@ -1,15 +1,13 @@
 import React from 'react'
-import { Spotlight } from "@/components/aceternityUI/Spotlight";
 import TitleSection from '../TitleSection';
 import { Button } from '../../../../components/ui/button';
 import Image from 'next/image';
 import Banner from '../../../../../public/playcodehub.png'
-import { InfiniteMovingCards } from "../../../../components/aceternityUI/infinite-moving-cards";
 import InfiniteCardsScroll from '../InfiniteCardsScroll';
 import FeatureSection from '../FeatureSection';
 import Testimonials from '../Testimonials';
 import Link from 'next/link';
-import { LogIn, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { FEATURES } from '@/app/pricing/_constants';
 import FeatureCategory from '@/app/pricing/_components/FeatureCategory';
 import FeatureItem from '@/app/pricing/_components/FeatureItem';

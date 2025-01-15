@@ -1,11 +1,9 @@
 "use client";
 
 import React from 'react'
-import { SignedOut } from "@clerk/nextjs";
-import { Blocks, Code2, Code2Icon, Sparkles } from "lucide-react";
+import { Blocks, Code2Icon } from "lucide-react";
 import Link from "next/link";
 import UserProfileBtn from '@/app/editor/_components/UserProfileBtn';
-import path from 'path';
 import { usePathname } from 'next/navigation';
 
 

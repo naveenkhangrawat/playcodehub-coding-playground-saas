@@ -2,7 +2,7 @@
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { IconCheck, IconCopy } from "@tabler/icons-react";
-import { atomDark, duotoneDark, materialDark, oneDark, nightOwl, dark, funky, coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { Code } from "lucide-react";
 
 
