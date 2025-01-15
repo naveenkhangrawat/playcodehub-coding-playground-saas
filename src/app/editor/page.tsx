@@ -1,7 +1,7 @@
 import React from 'react'
 import EditorHeader from './_components/EditorHeader';
 import EditorPanel from './_components/EditorPanel';
-// import FloatingMenu from './_components/FloatingMenu';
+
 import {
     ResizableHandle,
     ResizablePanel,
@@ -32,7 +32,7 @@ function EditorPage() {
                 {/* output panel */}
             </div>
 
-            {/* <FloatingMenu /> */}
+            
         </div>
     )
 }
