@@ -9,7 +9,7 @@ const nextConfig = {
         ],
         localPatterns: [
             {
-                pathname: '/public/**',
+                pathname: '/**',
                 search: ''
             }
         ]
