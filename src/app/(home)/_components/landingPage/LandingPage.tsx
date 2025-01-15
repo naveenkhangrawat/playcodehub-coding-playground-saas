@@ -1,7 +1,6 @@
 import React from 'react'
 import TitleSection from '../TitleSection';
 import { Button } from '../../../../components/ui/button';
-import Image from 'next/image';
 import InfiniteCardsScroll from '../InfiniteCardsScroll';
 import FeatureSection from '../FeatureSection';
 import Testimonials from '../Testimonials';
@@ -37,7 +36,7 @@ function LandingPage() {
                     <div className='w-[75%] md:blur-[50px] blur-[30px] rounded-full h-32 absolute bg-purple-800/50 -z-10 top-[-30px]' />
                     <div className="w-full max-w-[1250px] sm:w-[95%] rounded-xl p-4 ring-1 ring-gray-700 backdrop-blur-xl bg-white/5">
                         <div className='rounded-xl overflow-hidden'>
-                            <Image src={'/playcodehub.png'} alt='Application banner' />
+                            <img src={'/playcodehub.png'} alt='Application banner' />
                         </div>
                     </div>
                     <div className="bottom-0 top-[50%] bg-gradient-to-t from-[#0C1220] left-0 right-0 absolute z-10"></div>
