@@ -5,7 +5,6 @@ import { AnimatePresence, motion } from "framer-motion"
 import { BookOpen, Code, Grid, Layers, Search, Tag, X } from 'lucide-react'
 import { useQuery } from 'convex/react';
 import { api } from '../../../../convex/_generated/api';
-import Image from 'next/image';
 import SnippetCard from './SnippetCard';
 
 function SnippetsLandingPage({children} : {children: React.ReactNode}) {
@@ -103,7 +102,7 @@ function SnippetsLandingPage({children} : {children: React.ReactNode}) {
                                 ${selectedLanguage === lang ? "text-blue-400 bg-blue-500/10 ring-2 ring-blue-500/50" : "text-gray-400 hover:text-gray-300 bg-[#1e1e2e] hover:bg-[#262637] ring-1 ring-gray-800"}`}
                         >
                             <div className="flex items-center gap-2">
-                                <Image src={`/${lang}.png`} alt={lang} width={16} height={16} className="object-contain"/>
+                                <img src={`/${lang}.png`} alt={lang} className="w-4 h-4 object-contain"/>
                                 <span className="text-sm">{lang}</span>
                             </div>
                         </button>
