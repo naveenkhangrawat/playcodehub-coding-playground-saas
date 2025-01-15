@@ -48,8 +48,8 @@ export const getUserStats = query({
             execution._creationTime > Date.now() - (24*60*60*1000)
         )).length;
 
-        // total languages
-        const totalLanguages = [...new Set(codeExecutions.map((e) => e.language))].length;
+        
+        // const totalLanguages = [...new Set(codeExecutions.map((e) => e.language))].length;
 
         // language stats
         const languagesExecutedStats = codeExecutions.reduce((accumulator, execution) => {
@@ -65,6 +65,9 @@ export const getUserStats = query({
             favouriteLanguage: any
         }
         );
+
+        // total languages
+        const totalLanguages = Object.keys(languagesExecutedStats).length - 2;
 
 
         // starred snippets
