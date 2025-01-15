@@ -20,7 +20,7 @@ function CommentPreview({content} : {content: string}) {
 
         const normalContent = part.split("\n");
         return (
-            <div>
+            <div key={index}>
                 {normalContent.map((line, index) => (
                     <p key={index} className=" text-gray-100">
                         {line}
