@@ -10,7 +10,7 @@ import { FEATURES } from '@/app/pricing/_constants';
 import FeatureCategory from '@/app/pricing/_components/FeatureCategory';
 import FeatureItem from '@/app/pricing/_components/FeatureItem';
 import { FeatureLabelType } from '@/types';
-import Image from 'next/image';
+
 
 
 function LandingPage() {
