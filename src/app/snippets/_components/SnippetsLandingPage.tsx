@@ -100,10 +100,10 @@ function SnippetsLandingPage({children} : {children: React.ReactNode}) {
                             }}
                             className={`
                                 group relative px-3 py-1.5 rounded-lg transition-all duration-200
-                                ${selectedLanguage === lang ? "text-blue-400 bg-blue-500/10 ring-2 ring-blue-500/50" : "text-gray-400 hover:text-gray-300 bg-[#1e1e2e] hover:bg-[#262637] ring-1 ring-gray-800"}`}
+                                ${selectedLanguage === lang.toLowerCase() ? "text-blue-400 bg-blue-500/10 ring-2 ring-blue-500/50" : "text-gray-400 hover:text-gray-300 bg-[#1e1e2e] hover:bg-[#262637] ring-1 ring-gray-800"}`}
                         >
                             <div className="flex items-center gap-2">
-                                <Image src={`/${lang}.png`} alt={lang} height={16} width={16} className="w-4 h-4 object-contain"/>
+                                <Image src={`/${lang.toLowerCase()}.png`} alt={lang} height={16} width={16} className="w-4 h-4 object-contain"/>
                                 <span className="text-sm">{lang}</span>
                             </div>
                         </button>
